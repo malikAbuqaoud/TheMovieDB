@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView" parent="Theme.TheMovieDB">
+        <item name="android:layout_gravity">start|center_vertical</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="TextView.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Center">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Header1" parent="TextView.Bold">
+        <item name="android:textSize">@dimen/header</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Body1" parent="TextView">
+        <item name="android:textSize">@dimen/body1</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Body1.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ClickableImages">
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

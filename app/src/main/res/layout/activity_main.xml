@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:orientation="vertical"
+    tools:context=".app.home.ui.HomeActivity">
+
+    <TextView
+        android:text="@string/popular"
+        android:id="@+id/popularCarouselTitle"
+        style="@style/CarouselTitleText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/popularRecyclerView"
+        style="@style/Carousel"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/adapter_movie" />
+
+    <TextView
+        android:text="@string/top_rated"
+        android:id="@+id/topMoviesCarouselTitle"
+        style="@style/CarouselTitleText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/topRatedRecyclerView"
+        style="@style/Carousel"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/adapter_movie" />
+
+    <TextView
+        android:text="@string/revenue"
+        android:id="@+id/revenueCarouselTitle"
+        style="@style/CarouselTitleText"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/revenueRecyclerView"
+        style="@style/Carousel"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/adapter_movie" />
+</LinearLayout>

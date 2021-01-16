@@ -1,0 +1,16 @@
+<resources>
+
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+
+    <dimen name="body1">14dp</dimen>
+    <dimen name="header">22dp</dimen>
+
+    <dimen name="material_standard_margin_8">@dimen/dp_8</dimen>
+    <dimen name="material_standard_margin_16">@dimen/dp_16</dimen>
+
+
+    <dimen name="list_image_width">90dp</dimen>
+    <dimen name="list_image_height">120dp</dimen>
+
+</resources>

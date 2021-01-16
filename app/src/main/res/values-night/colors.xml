@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_dark">#0D253F</color>
+    <color name="blue_light">#01B4E4</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="appBackground">@color/black</color>
+    <color name="contentBackground">#252530</color>
+
+    <color name="dividerColor">@color/appBackground</color>
+
+    <color name="textColorPrimary">@color/white</color>
+    <color name="textColorSecondary">#DADADA</color>
+    <color name="textColorPrimaryInverse">@color/black</color>
+
+    <color name="iconColorPrimary">@color/white</color>
+    <color name="iconColorSecondary">#CFCFCF</color>
+    <color name="iconColorPrimaryInverse">@color/black</color>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RatingBar" parent="Theme.TheMovieDB">
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+
+    <style name="CarouselTitleText" parent="Header1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/material_standard_margin_8</item>
+    </style>
+
+    <style name="Carousel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MovieTitleText" parent="Header1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">@dimen/material_standard_margin_16</item>
+    </style>
+
+    <style name="MovieTitleText.Constraints">
+        <item name="layout_constraintTop_toBottomOf">@id/movieBannerImageView</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+    </style>
+
+    <style name="MovieSubTitleText" parent="Body1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">@dimen/material_standard_margin_16</item>
+    </style>
+
+    <style name="MovieSubTitleText.Constraints">
+        <item name="layout_constraintTop_toBottomOf">@id/ratingBar</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+    </style>
+
+</resources>
